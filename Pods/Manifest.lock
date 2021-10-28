@@ -1,0 +1,39 @@
+PODS:
+  - CocoaLumberjack (3.1.0):
+    - CocoaLumberjack/Default (= 3.1.0)
+    - CocoaLumberjack/Extensions (= 3.1.0)
+  - CocoaLumberjack/Default (3.1.0)
+  - CocoaLumberjack/Extensions (3.1.0):
+    - CocoaLumberjack/Default
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - libPhoneNumber-iOS (0.9.15)
+  - Masonry (1.1.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - CocoaLumberjack (~> 3.1.0)
+  - FMDB (~> 2.7.2)
+  - libPhoneNumber-iOS
+  - Masonry
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - FMDB
+    - libPhoneNumber-iOS
+    - Masonry
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 683c0432adcf581666d239a6886485e18c12ba8a
+
+COCOAPODS: 1.8.4

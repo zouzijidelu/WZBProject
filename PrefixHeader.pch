@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  WZBProject
+//
+//  Created by zhibin wang on 2020/2/25.
+//  Copyright © 2020 iTalkBB. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "DDLog.h"
+
+
+#ifdef DEBUG
+
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+
+#else
+
+static const int ddLogLevel = LOG_LEVEL_DEBUG;
+
+#endif
+#import "GlobalMacro.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <CocoaLumberjack/DDTTYLogger.h>
+#import "HSLogMacros.h"
+
+#import "FCCommon.h"
+
+#endif /* PrefixHeader_pch */
